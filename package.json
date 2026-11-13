@@ -1,0 +1,14 @@
+{
+  "name": "magpie-agent-zap",
+  "version": "0.1.0",
+  "description": "Zap (OpenWarp) as a magpie agent: pick a model on magpie's Agents page and Zap's BYOP provider follows it, on magpie's local gateway",
+  "license": "MIT",
+  "keywords": ["magpie", "magpie-plugin", "opencode", "opencode-plugin", "agent", "zap", "openwarp", "warp"],
+  "type": "module",
+  "main": "./index.mjs",
+  "files": ["zap.agent.js", "index.mjs", "toml.mjs", "README.md", "LICENSE"],
+  "magpie": {
+    "agent": "./zap.agent.js",
+    "icon": "https://github.com/zerx-lab.png"
+  }
+}
